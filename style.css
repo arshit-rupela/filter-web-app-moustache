@@ -1,0 +1,15 @@
+h3{
+    font-size: 30px !important;
+}
+.btn-info:hover{
+   background-color:darkgoldenrod; 
+}
+@keyframes shadow{
+    from{box-shadow: 5px 5px 28px red;}
+    to{box-shadow: 5px 5px 28px darkgreen;}
+}
+canvas{
+    animation-name:shadow ;
+    animation-duration: 3s ;
+    animation-iteration-count: infinite;
+}
